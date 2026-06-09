@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POC Test</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 20px;
         }
         .container {
             background: white;
@@ -25,11 +29,13 @@
         }
         h1 {
             color: #333;
-            margin: 0 0 10px 0;
+            margin-bottom: 10px;
+            font-size: 32px;
         }
         p {
             color: #666;
             line-height: 1.6;
+            margin-bottom: 10px;
         }
         .footer {
             margin-top: 20px;
@@ -42,13 +48,12 @@
 </head>
 <body>
     <div class="container">
-        <h1>🎉 Welcome!</h1>
+        <h1>Welcome</h1>
         <p>Your GitHub Pages site is now live.</p>
         <p>This is the POC Test repository.</p>
         <div class="footer">
             <p>Powered by GitHub Pages</p>
         </div>
     </div>
-    <script src="poc.js"></script>
 </body>
 </html>
